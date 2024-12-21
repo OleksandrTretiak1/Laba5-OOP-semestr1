@@ -45,7 +45,7 @@ partial class MainForm
         this.rhombButton.BackColor = Color.White;
 
         // moveButton
-        this.moveButton.Location = new Point(300, 10);
+        this.moveButton.Location = new Point(380, 10);
         this.moveButton.Name = "moveButton";
         this.moveButton.Size = new Size(100, 23);
         this.moveButton.Text = "Move Right";
@@ -53,7 +53,7 @@ partial class MainForm
         this.moveButton.BackColor = Color.White;
 
         // stopButton
-        this.stopButton.Location = new Point(410, 10);
+        this.stopButton.Location = new Point(500, 10);
         this.stopButton.Name = "stopButton";
         this.stopButton.Size = new Size(75, 23);
         this.stopButton.Text = "Stop";
@@ -68,5 +68,6 @@ partial class MainForm
         this.Controls.Add(this.moveButton);
         this.Controls.Add(this.stopButton);
         this.Text = "Figures Example";
+        this.BackColor = Color.LightBlue;
     }
 }
